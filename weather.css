@@ -3,16 +3,23 @@
 
 body {
     user-select: none;
+    height: 100%;
+    width: 100%;
     /* margin-top: -20px; */
+    margin: 0;
+    padding: 0;
 }
 .first {
     background: url("pexels-pixabay-206359.jpg");
+    background-size: cover;
     height: 100vh;
+    
     width: 100wh;
     display: flex;
     justify-content: center;
     background-size: cover;
     align-items: center;
+    /* margin-top:px; */
 }
 #container {
     /* position: absolute; */
@@ -23,7 +30,7 @@ body {
     width: 40%;
     background: linear-gradient(45deg, rgba(0, 128, 0, 0.517), rgba(255, 166, 0, 0.573), rgba(15, 97, 130, 0.776));
     border-radius: 50px;
-    padding: 20px;;
+    padding: 20px;
 }
 #heading {
     font-variant: small-caps;
@@ -90,8 +97,8 @@ input {
 
 }
 #namecity,
-#Mintemp,
-#Maxtemp,
+#MinTemp,
+#MaxTemp,
 #visibility {
     border-radius: 20px;
     color: antiquewhite;
@@ -134,8 +141,8 @@ input {
         font-size:30px;
     }
     #namecity,
-    #Mintemp,
-    #Maxtemp,
+    #MinTemp,
+    #MaxTemp,
     #visibility {
         font-size: 15px;
         width: 100%;
